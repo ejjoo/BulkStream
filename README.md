@@ -17,6 +17,7 @@ bulkStream
 		console.log('done');
 		fws.close();
 	});
+```
 
 BulkStream has only two event. 'data' is called when array of data has filled by the size as you want and 'close' is when readable-stream has closed.
 
