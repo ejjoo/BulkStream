@@ -1,6 +1,6 @@
 {
   "name": "bulkstream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Writable stream to create bulk array.",
   "main": "bulkStream.js",
   "directories": {
