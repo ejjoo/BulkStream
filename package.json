@@ -1,0 +1,27 @@
+{
+  "name": "bulkstream",
+  "version": "1.0.0",
+  "description": "Writable stream to create bulk array.",
+  "main": "bulkStream.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejjoo/BulkStream).git"
+  },
+  "keywords": [
+    "bulk",
+    "array",
+    "stream"
+  ],
+  "author": "Euijong Joo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejjoo/BulkStream)/issues"
+  },
+  "homepage": "https://github.com/ejjoo/BulkStream)#readme"
+}
