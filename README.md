@@ -1,8 +1,8 @@
 # bulkStream
-BulkStream is an writable stream that receives data from the readable stream and creates it as a array of data. It is useful to transfer large amounts of data, especially to send data to a database that supports bulk insert.
+BulkStream is an writable stream to generate bulk array date from readable stream. 
+Designed for supporting the bulk insert to database using data stream.
 
 # Usage
-It is very simple to use. 
 ```js
 var bulkStream = require('./bulkStream').create(100);
 
@@ -19,8 +19,8 @@ bulkStream
 	});
 ```
 
-BulkStream has only two event. 'data' is called when array of data has filled by the size as you want and 'close' is when readable-stream has closed.
-
-Unfortunately, it's not possible to receive data through stream. This is because Readable Stream is only acceptable string and byteBuffer only.
-
-You can use writable stream's method and events, like a cork method or finish event.
+* BulkStream has two type of events. 
+1. data
+- This will be emited when bulk array has filled with configured size
+2. close 
+- readable-stream has closed.
